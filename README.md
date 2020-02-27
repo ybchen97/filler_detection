@@ -1,7 +1,7 @@
 # CS3244 
 
 ## Important details to note
-**Project deadline:** W13, Fri: April 17th
+**Project deadline:** W13, Fri: April 17th  
 **Weekly meetings:** Friday 9.30am @ Cinnamon College
 
 We are all busy, but let's all try to help each other out as much as possible when we do have the spare time :)
