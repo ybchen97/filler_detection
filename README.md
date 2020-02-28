@@ -12,23 +12,20 @@ Verbal communications, from everyday conversations to public speakering, are oft
 ## Projected timeline
 ### Week 7
 - [x] Email Prof Bryan
-- [ ] Create Data Sets
+- [x] Presentation Outline
+- [x] Record negative words
 - [ ] Reading and understanding notebook 
+- [ ] Record Filler Words
+- [ ] Create raw data of 10s background clips
 - [ ] Project Name
 
-### Create Data Sets
-
-**Recall.** To synthesize a single training example, you will:
-1. Pick a random 10 second background audio clip
-2. Randomly insert 0-4 audio clips of filler words into this 10sec clip
-3. Randomly insert 0-2 audio clips of negative words into this 10sec clip
-4. Because you had synthesized the word "activate" into the background clip, you know exactly when in the 10 second clip the "activate" makes its appearance
+**Record Filler Words**
 
 > What is the filler word?
 
 **Basically**: we chose this as it has more syllables than other filler words.
 
-> How long does the filler and negative words need to be?
+> How long does the filler words need to be?
 
 ~1s. The exact timing does not matter, as we take `len(audio_clip)`. These clips will then be randomly inserted into the background audio clip.
 
@@ -36,11 +33,14 @@ Verbal communications, from everyday conversations to public speakering, are oft
 
 Ideally, there should be no background sound and the pronunciation of each syllable is clear.
 
+**Create raw data of 10s background clips**
+
 > What kind of background sounds?
 
 Preferably atypical of Singapore environment (city? gardens?quiet room?). Background sound should be snipped to 10s already (i'm concerned that snipping it during the training of model will be computationally costly).
 
-### Reading and Understanding Notebook
+**Reading and Understanding Notebook**
+
 Since it's a ML mod after all, it's be important (for the learning) to at least know the intuition behind the model we are using. I tried to explain the intuition of the neural network architecture. It's found below in the FAQ.
 
 ### Week 8

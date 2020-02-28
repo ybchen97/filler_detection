@@ -14,9 +14,12 @@ Verbal communications, from everyday conversations to public speakering, are oft
 
 **Our unique point:** Instead of removing, we highlight the frequency of the filler words.
 
+## Tech Stack
+1. Keras
+
 ## Broad Implementation Details
-1. **Data Preprocessing:** Manual recording of raw audio clips (positive, negative, and background noise) 
-2. **Data Synthesis:** Overlaying of positive, negative, and background audio clips and labelling of the created clips.
+1. **Data Preprocessing:** Manual recording of filler word clips. Negative clips avaible in the [Speech Commands Dataset](https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html): 65,000 one-second long utterances of 30 short words, by thousands of different people, contributed by members of the public through the AIY website. 
+2. **Data Synthesis:** Overlaying of filler word, negative, and background audio clips and labelling of the created clips.
 3. **Model:** Conv layer + GRU layer + dense layer. Architecture here
 
 ![Neural Network Architecture](/images/nn_architecture.png)
@@ -55,3 +58,5 @@ Verbal communications, from everyday conversations to public speakering, are oft
 
 ## Credits
 [Andrew Ng's Trigger Word Detection Assignment](https://github.com/Kulbear/deep-learning-coursera/blob/master/Sequence%20Models/Trigger%20word%20detection%20-%20v1.ipynb)
+
+TensorFlow and AIY teams for the negative word datasets
