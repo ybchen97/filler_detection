@@ -54,4 +54,4 @@ Verbal communications, from everyday conversations to public speakering, are oft
 2. Might not work with continuous stream of text. (possibly circumvent by slowing the audio down before inputting into the model?)
 
 ## Credits
-![Andrew Ng's Trigger Word Detection Assignment](https://github.com/Kulbear/deep-learning-coursera/blob/master/Sequence%20Models/Trigger%20word%20detection%20-%20v1.ipynb)
+[Andrew Ng's Trigger Word Detection Assignment](https://github.com/Kulbear/deep-learning-coursera/blob/master/Sequence%20Models/Trigger%20word%20detection%20-%20v1.ipynb)

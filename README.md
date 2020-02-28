@@ -11,9 +11,10 @@ Verbal communications, from everyday conversations to public speakering, are oft
 
 ## Projected timeline
 ### Week 7
-- [x] Email Prof ryan
+- [x] Email Prof Bryan
 - [ ] Create Data Sets
 - [ ] Reading and understanding notebook 
+- [ ] Project Name
 
 ### Create Data Sets
 
@@ -40,7 +41,7 @@ Ideally, there should be no background sound and the pronunciation of each sylla
 Preferably atypical of Singapore environment (city? gardens?quiet room?). Background sound should be snipped to 10s already (i'm concerned that snipping it during the training of model will be computationally costly).
 
 ### Reading and Understanding Notebook
-To aid your understanding, I tried to explain the intuition of the neural network architecture. It's found below in the FAQ.
+Since it's a ML mod after all, it's be important (for the learning) to at least know the intuition behind the model we are using. I tried to explain the intuition of the neural network architecture. It's found below in the FAQ.
 
 ### Week 8
 1. Data pre-processing
@@ -56,7 +57,7 @@ To aid your understanding, I tried to explain the intuition of the neural networ
 
 ## FAQ
 
-> Please explain the architecture.
+![Neural Network Architecture](/images/nn_architecture.png)
 
 **CONV-1D:** Extracts low-level features (low-level: tone, frequency; high level: recognising syllables) and generates an output of smaller dimensions which speeds up the model.
 
@@ -80,6 +81,7 @@ To aid your understanding, I tried to explain the intuition of the neural networ
 
 **Sigmoid:** Used at the end to achieve a more accurate binary output (ie is the trigger word detected or not?)
 
+Any further info can be found in my notes on DL [here](https://larrylawl.github.io/notes/coursera-dl-notes.html#recurrent-neural-networks). Alternatively just ping me! 
 
 ## Credits
 ![Andrew Ng's Trigger Word Detection Assignment](https://github.com/Kulbear/deep-learning-coursera/blob/master/Sequence%20Models/Trigger%20word%20detection%20-%20v1.ipynb)
