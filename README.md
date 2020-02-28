@@ -16,7 +16,6 @@ Verbal communications, from everyday conversations to public speakering, are oft
 - [x] Record negative words
 - [ ] Reading and understanding notebook 
 - [ ] Record Filler Words
-- [ ] Create raw data of 10s background clips
 - [ ] Project Name
 
 **Record Filler Words**
@@ -32,12 +31,6 @@ Verbal communications, from everyday conversations to public speakering, are oft
 > How good should the quality be?
 
 Ideally, there should be no background sound and the pronunciation of each syllable is clear.
-
-**Create raw data of 10s background clips**
-
-> What kind of background sounds?
-
-Preferably atypical of Singapore environment (city? gardens?quiet room?). Background sound should be snipped to 10s already (i'm concerned that snipping it during the training of model will be computationally costly).
 
 **Reading and Understanding Notebook**
 
