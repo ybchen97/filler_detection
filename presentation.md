@@ -48,6 +48,7 @@ Verbal communications, from everyday conversations to public speakering, are oft
 
 ### Week 9+ (KIV)
 1. Model building & testing
+   - Splitting spectogram into discrete timestamps
 2. Find resources
    - GPU
 3. Reiterate minimum viable product (MVP)

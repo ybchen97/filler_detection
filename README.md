@@ -44,6 +44,7 @@ Since it's a ML mod after all, it's be important (for the learning) to at least 
 
 ### Week 9+ (KIV)
 1. Model building & testing
+	- Splitting of dataset into training and validation datasets
 2. Find resources
    - GPU
 3. Reiterate minimum viable product (MVP)
