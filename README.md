@@ -1,5 +1,8 @@
 # CS3244 Project
 
+Test test test
+
+
 ## Important details to note
 **Project deadline:** Week 13, Friday, April 17th  
 **Weekly meetings:** Friday 9.30am @ Cinnamon College
