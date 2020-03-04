@@ -38,8 +38,10 @@ Since it's a ML mod after all, it's be important (for the learning) to at least 
 
 ### Week 8
 1. Data pre-processing
+	- section 1.1 - section 1.2
    - Splitting spectogram into discrete timestamps
 2. Data synthesizing   
+	- section 1.3
    - Overlaying positive, negative and background audio clips
 
 ### Week 9+ (KIV)
