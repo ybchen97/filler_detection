@@ -10,13 +10,25 @@ We are all busy, but let's all try to help each other out as much as possible wh
 Verbal communications, from everyday conversations to public speakering, are often filled with filler words: meaningless word, phrase, or sound that marks hesitation in speech. How can speakers, who interested in ridding the usage of filler words, efficiently track the frequency of filler words used? Inspired by the trigger word detection model in Dr Andrew Ng's deep learning programming assignment, [Insert project name] is a filler word detection model that takes in an audio clip and outputs the frequency of filler words used.
 
 ## Projected timeline
-### Week 7
-- [x] Email Prof Bryan
-- [x] Presentation Outline
-- [x] Record negative words
+### Week 8
+- IMPORTANT: Download the google speech dataset, unzip it into the root folder, rename the folder as `google_dataset`.
 - [ ] Reading and understanding notebook 
 - [ ] Record Filler Words
 - [ ] Project Name
+- [ ] Data pre-processing (ref. section 1.1 - section 1.2 of notebook)
+	- separating data into 3 sets, positive, negative, background, each represented by a list.
+	- Splitting spectogram into discrete timestamps
+- [ ] Data synthesizing (ref. section 1.3 of notebook)
+	- Overlaying positive, negative and background audio clips
+
+### Week 9+ (KIV)
+1. Model building & testing
+	- Splitting of dataset into training and validation datasets
+2. Find resources
+   - GPU
+3. Reiterate minimum viable product (MVP)
+
+## FAQ
 
 **Record Filler Words**
 
@@ -35,23 +47,6 @@ Ideally, there should be no background sound and the pronunciation of each sylla
 **Reading and Understanding Notebook**
 
 Since it's a ML mod after all, it's be important (for the learning) to at least know the intuition behind the model we are using. I tried to explain the intuition of the neural network architecture. It's found below in the FAQ.
-
-### Week 8
-1. Data pre-processing
-	- section 1.1 - section 1.2
-   - Splitting spectogram into discrete timestamps
-2. Data synthesizing   
-	- section 1.3
-   - Overlaying positive, negative and background audio clips
-
-### Week 9+ (KIV)
-1. Model building & testing
-	- Splitting of dataset into training and validation datasets
-2. Find resources
-   - GPU
-3. Reiterate minimum viable product (MVP)
-
-## FAQ
 
 ![Neural Network Architecture](/images/nn_architecture.png)
 
