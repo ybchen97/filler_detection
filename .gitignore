@@ -1,2 +1,11 @@
+# macOS
 .DS_Store
+
+# ignore google speech commands dataset
 google_dataset
+
+# ignore jupyter notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
