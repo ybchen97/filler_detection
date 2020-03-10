@@ -13,4 +13,5 @@ google_dataset
 
 # Generated .wav files
 insert_test.wav
-
+train.wav
+spectrogram.png
