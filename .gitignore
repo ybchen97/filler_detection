@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# pycharm
+.idea/
+
 # ignore google speech commands dataset
 google_dataset
 
@@ -8,4 +11,6 @@ google_dataset
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# Generated .wav files
+insert_test.wav
 
