@@ -1,8 +1,9 @@
-# CS3244 Project
+# Basically England!
+Project by Chaitanya, Yuan Bo, Zi Yun, Jia Hwee, Arushi, and Larry
 
 ## Important details to note
 **Project deadline:** Week 13, Friday, April 17th  
-**Weekly meetings:** Friday 9.30am @ Cinnamon College
+**Weekly meetings:** Friday 4PM  @ Cinnamon College
 
 We are all busy, but let's all try to help each other out as much as possible when we do have the spare time :)
 
@@ -12,21 +13,22 @@ Verbal communications, from everyday conversations to public speakering, are oft
 ## Projected timeline
 ### Week 8
 - IMPORTANT: Download the google speech dataset, unzip it into the root folder, rename the folder as `google_dataset`.
-- [ ] Reading and understanding notebook 
-- [ ] Record Filler Words
-- [ ] Project Name
-- [ ] Data pre-processing (ref. section 1.1 - section 1.2 of notebook)
+- [x] Reading and understanding notebook 
+- [x] Record Filler Words
+- [x] Project Name
+- [x] Data pre-processing (ref. section 1.1 - section 1.2 of notebook)
 	- separating data into 3 sets, positive, negative, background, each represented by a list.
 	- Splitting spectogram into discrete timestamps
-- [ ] Data synthesizing (ref. section 1.3 of notebook)
+- [x] Data synthesizing (ref. section 1.3 of notebook)
 	- Overlaying positive, negative and background audio clips
 
-### Week 9+ (KIV)
-1. Model building & testing
-	- Splitting of dataset into training and validation datasets
-2. Find resources
-   - GPU
-3. Reiterate minimum viable product (MVP)
+### Week 9
+- [ ] 1.4 and 1.5
+    - Loading all negative data
+    - Creating large enough dataset
+    - Storing our data in remote
+- [ ] Training of model
+    - GPU
 
 ## FAQ
 
