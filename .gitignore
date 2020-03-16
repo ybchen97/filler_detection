@@ -1,11 +1,18 @@
 # macOS
 .DS_Store
 
-# pycharm
+# IDE files
 .idea/
+.vscode/
+
+# Python virtual environment
+venv/
 
 # ignore google speech commands dataset
 google_dataset
+
+# Stub data
+stub_data/
 
 # ignore jupyter notebook checkpoints
 .ipynb_checkpoints
