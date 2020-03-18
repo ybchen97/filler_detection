@@ -10,9 +10,8 @@ venv/
 
 # ignore google speech commands dataset
 google_dataset
-
-# Stub data
 stub_data/
+audio_ignored_examples/
 
 # ignore jupyter notebook checkpoints
 .ipynb_checkpoints
