@@ -12,6 +12,7 @@ venv/
 google_dataset
 stub_data/
 audio_ignored_examples/
+training_data/
 
 # ignore jupyter notebook checkpoints
 .ipynb_checkpoints
