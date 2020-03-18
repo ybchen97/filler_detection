@@ -8,7 +8,7 @@ Project by Chaitanya, Yuan Bo, Zi Yun, Jia Hwee, Arushi, and Larry
 We are all busy, but let's all try to help each other out as much as possible when we do have the spare time :)
 
 ## Introduction
-Verbal communications, from everyday conversations to public speakering, are often filled with filler words: meaningless word, phrase, or sound that marks hesitation in speech. How can speakers, who interested in ridding the usage of filler words, efficiently track the frequency of filler words used? Inspired by the trigger word detection model in Dr Andrew Ng's deep learning programming assignment, [Insert project name] is a filler word detection model that takes in an audio clip and outputs the frequency of filler words used.
+Verbal communications, from everyday conversations to public speakering, are often filled with filler words: meaningless word, phrase, or sound that marks hesitation in speech. How can speakers, who interested in ridding the usage of filler words, efficiently track the frequency of filler words used? Inspired by the trigger word detection model in Dr Andrew Ng's deep learning programming assignment, Basically England is a filler word detection model that takes in an audio clip and outputs the frequency of filler words used.
 
 ## Projected timeline
 ### Week 8
@@ -23,7 +23,7 @@ Verbal communications, from everyday conversations to public speakering, are oft
 	- Overlaying positive, negative and background audio clips
 
 ### Week 9
-- [ ] 1.4 and 1.5
+- [x] 1.4 and 1.5
     - Loading all negative data
     - Creating large enough dataset
     - Storing our data in remote
