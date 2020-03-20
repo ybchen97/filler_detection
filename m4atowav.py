@@ -21,7 +21,7 @@
 # Convert all file extensions to m4a (if required)
 
 import os,sys
-folder = 'raw_data/positive_data/'
+folder = sys.argv[1]
 for filename in os.listdir(folder):
        infilename = os.path.join(folder,filename)
        if not os.path.isfile(infilename): continue
@@ -40,7 +40,7 @@ from pydub import AudioSegment
 
 formats_to_convert = ['.m4a']
 
-for (dirpath, dirnames, filenames) in os.walk("raw_data/positive_data/"):
+for (dirpath, dirnames, filenames) in os.walk(folder):
     for filename in filenames:
         if filename.endswith(tuple(formats_to_convert)):
 
