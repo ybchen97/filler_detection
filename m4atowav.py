@@ -1,24 +1,8 @@
-# Packages reqd: pydub, ffmpeg
-
-# pydub - pip install pydub
-
-# ffmpeg: 
-# sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
-# sudo apt-get update
-# sudo apt-get install ffmpeg
-
-## Load the m4a files (in M4a_files.tar.gz) 
-
-# !tar -xvzf M4a_files.tar.gz
-
-## Delete unwanted files (here: Tapping files)
-
-# !find M4a_files/ -name 'tapping_results.*' -delete
-
-## Converting to wav
-# Using pydub
-
-# Convert all file extensions to m4a (if required)
+###
+# How to use:
+# python m4atowav.py [DIRECTORY_NAME]
+# `m4atowav.py` will convert all `.m4a` files in the directory to `.wav`
+###
 
 import os,sys
 folder = sys.argv[1]
