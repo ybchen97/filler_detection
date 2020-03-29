@@ -1,0 +1,11 @@
+1000 examples
+Accuracy: 0.309
+Precision: 0.170
+Recall: 0.959
+F1 Score: 0.288
+
+2000 examples
+Accuracy: 0.331
+Precision: 0.174
+Recall: 0.958
+F1 score: 0.295
