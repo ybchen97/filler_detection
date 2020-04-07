@@ -14,9 +14,9 @@ for filename in os.listdir(folder):
        output = os.rename(infilename, newname)
 
 
-      
+
 # Convert m4a extension files to wav extension files
-      
+
 import os
 import argparse
 
@@ -28,7 +28,7 @@ for (dirpath, dirnames, filenames) in os.walk(folder):
     for filename in filenames:
         if filename.endswith(tuple(formats_to_convert)):
 
-            filepath = dirpath + '/' + filename
+            filepath = dirpath + filename
             (path, file_extension) = os.path.splitext(filepath)
             file_extension_final = file_extension.replace('.', '')
             try:
