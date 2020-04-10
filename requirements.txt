@@ -17,6 +17,7 @@ decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.0
 entrypoints==0.3
+essential-generators==0.9.2
 filelock==3.0.12
 gast==0.2.2
 geonamescache==1.1.0
@@ -104,6 +105,7 @@ tensorflow-estimator==2.1.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
+text-unidecode==1.3
 tf-utils==1.0.4
 tornado==6.0.4
 tqdm==4.45.0
