@@ -13,6 +13,7 @@ google_dataset
 stub_data/
 audio_ignored_examples/
 data/
+credentials/
 
 # ignore jupyter notebook checkpoints
 .ipynb_checkpoints
